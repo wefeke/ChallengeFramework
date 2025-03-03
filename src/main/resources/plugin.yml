@@ -1,0 +1,12 @@
+name: cooleServerMods
+version: '1.0-SNAPSHOT'
+main: wefeke.cooleServerMods.CooleServerMods
+api-version: '1.21'
+commands:
+  begruessung:
+    description: Begrüßungsbefehl
+    usage: /begrüssung
+    aliases: [hallo, hi]
+  toggleHunger:
+    description: Hunger an/aus
+    usage: /toggleHunger

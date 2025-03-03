@@ -1,0 +1,11 @@
+wefeke\cooleServerMods\Listener\PlayerInteractEntityListener.class
+wefeke\cooleServerMods\Entities\Team.class
+wefeke\cooleServerMods\Listener\ProjectileHitListener.class
+wefeke\cooleServerMods\Listener\EntityDamageByEntityListener.class
+wefeke\cooleServerMods\Listener\PlayerInteractListener.class
+wefeke\cooleServerMods\Commands\HungerToggleCommand.class
+wefeke\cooleServerMods\Listener\PlayerJoinListener.class
+wefeke\cooleServerMods\Commands\BegruessungCommand.class
+wefeke\cooleServerMods\Listener\BlockBreakListener.class
+wefeke\cooleServerMods\Listener\FoodLevelChangeListener.class
+wefeke\cooleServerMods\CooleServerMods.class
