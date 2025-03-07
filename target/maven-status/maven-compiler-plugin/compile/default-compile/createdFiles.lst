@@ -1,5 +1,6 @@
 wefeke\modFramework\GlobalCommands\CancelChallengeCommand.class
 wefeke\modFramework\GlobalCommands\StartChallengeCommand.class
+wefeke\modFramework\Challenges\DamageChallenge\DamageChallenge_World.class
 wefeke\modFramework\Framework\Challenge.class
 wefeke\modFramework\Challenges\DamageChallenge\PlayerDamageListener.class
 wefeke\modFramework\Framework\TimerManager.class
