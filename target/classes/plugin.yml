@@ -6,6 +6,18 @@ commands:
   startchallenge:
     description: Öffnet das Challenge Menü
     usage: /startchallenge
+  cancelchallenge:
+    description: Beendet die aktuelle Challenge
+    usage: /cancelchallenge
+  resetchallenge:
+      description: Resettet die aktuelle Challenge
+      usage: /resetchallenge
+  pausechallenge:
+    description: Pausiert die aktuelle Challenge
+    usage: /pausechallenge
+  resumechallenge:
+    description: Aktuelle Challenge fortsetzen
+    usage: /resumechallenge
   toggleHunger:
     description: Hunger an/aus
     usage: /toggleHunger

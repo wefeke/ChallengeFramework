@@ -3,6 +3,7 @@ package wefeke.modFramework;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import wefeke.modFramework.Framework.ChallengeInventoryListener;
+import wefeke.modFramework.Framework.TimerManager;
 import wefeke.modFramework.GlobalCommands.*;
 import wefeke.modFramework.Framework.ChallengeManager;
 import wefeke.modFramework.Challenges.DamageChallenge.DamageChallenge;
@@ -17,10 +18,13 @@ public final class modFramework extends JavaPlugin {
 
     private ArrayList<Player> playerNotHungry;
     private ChallengeManager challengeManager;
+    private TimerManager timerManager;
 
     public modFramework() {
         playerNotHungry = new ArrayList<>();
-        challengeManager = new ChallengeManager(this);
+        timerManager = new TimerManager(this);
+        challengeManager = new ChallengeManager(this, timerManager);
+        timerManager.setChallengeManager(challengeManager);
     }
 
     public boolean isPlayerHungry(Player player){
@@ -73,10 +77,10 @@ public final class modFramework extends JavaPlugin {
 
     public void registerCommands() {
         Objects.requireNonNull(getCommand("startchallenge")).setExecutor(new StartChallengeCommand(challengeManager));
-        Objects.requireNonNull(getCommand("startchallenge")).setExecutor(new CancelChallengeCommand(challengeManager));
-        Objects.requireNonNull(getCommand("startchallenge")).setExecutor(new ResetChallengeCommand(challengeManager));
-        Objects.requireNonNull(getCommand("startchallenge")).setExecutor(new PauseChallengeCommand(challengeManager));
-        Objects.requireNonNull(getCommand("startchallenge")).setExecutor(new ResumeChallengeCommand(challengeManager));
+        Objects.requireNonNull(getCommand("cancelchallenge")).setExecutor(new CancelChallengeCommand(challengeManager, timerManager));
+        Objects.requireNonNull(getCommand("resetchallenge")).setExecutor(new ResetChallengeCommand(challengeManager));
+        Objects.requireNonNull(getCommand("pausechallenge")).setExecutor(new PauseChallengeCommand(challengeManager, timerManager));
+        Objects.requireNonNull(getCommand("resumechallenge")).setExecutor(new ResumeChallengeCommand(challengeManager));
 
         Objects.requireNonNull(getCommand("toggleHunger")).setExecutor(new HungerToggleCommand(this));
     }

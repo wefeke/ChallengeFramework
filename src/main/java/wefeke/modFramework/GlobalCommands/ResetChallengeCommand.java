@@ -4,6 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import wefeke.modFramework.Framework.Challenge;
 import wefeke.modFramework.Framework.ChallengeManager;
 
 public class ResetChallengeCommand implements CommandExecutor {
@@ -20,7 +21,8 @@ public class ResetChallengeCommand implements CommandExecutor {
             return false;
         }
 
-        challengeManager.resetChallenge(challengeManager.getActiveChallenge().getName());
+        Challenge activeChallenge = challengeManager.getActiveChallenge();
+        challengeManager.resetChallenge(activeChallenge);
         return true;
     }
 }

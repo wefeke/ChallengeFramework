@@ -4,6 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import wefeke.modFramework.Framework.Challenge;
 import wefeke.modFramework.Framework.ChallengeManager;
 import wefeke.modFramework.modFramework;
 
@@ -23,7 +24,8 @@ public class ResumeChallengeCommand implements CommandExecutor {
             return false;
         }
 
-        challengeManager.resumeChallenge(challengeManager.getActiveChallenge().getName());
+        Challenge activeChallenge = challengeManager.getActiveChallenge();
+        challengeManager.resumeChallenge(activeChallenge);
         return true;
     }
 }

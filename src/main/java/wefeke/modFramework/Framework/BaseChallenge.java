@@ -17,7 +17,7 @@ public abstract class BaseChallenge implements Challenge {
     protected final JavaPlugin plugin;
     protected boolean running;
     protected int taskId;
-    protected int duration = 60; // Default to 60 seconds
+    protected int duration = 10; // Default to 60 seconds
     protected Map<String, Integer> settings = new HashMap<>();
 
     public BaseChallenge(JavaPlugin plugin) {

@@ -1,3 +1,4 @@
+C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Challenges\AmpelChallenge\AmpelChallenge.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Challenges\DamageChallenge\DamageChallenge.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Challenges\DamageChallenge\PlayerDamageListener.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Challenges\DamageChallenge\RunListener.java
@@ -6,7 +7,11 @@ C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Fr
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Framework\ChallengeInventoryListener.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Framework\ChallengeManager.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\Framework\TimerManager.java
+C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalCommands\CancelChallengeCommand.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalCommands\HungerToggleCommand.java
+C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalCommands\PauseChallengeCommand.java
+C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalCommands\ResetChallengeCommand.java
+C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalCommands\ResumeChallengeCommand.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalCommands\StartChallengeCommand.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalListeners\FoodLevelChangeListener.java
 C:\Users\wefek\IdeaProjects\cooleServerMods\src\main\java\wefeke\modFramework\GlobalListeners\PlayerJoinListener.java
