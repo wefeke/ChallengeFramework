@@ -1,17 +1,17 @@
-package wefeke.cooleServerMods.Commands;
+package wefeke.modFramework.GlobalCommands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import wefeke.cooleServerMods.CooleServerMods;
+import wefeke.modFramework.modFramework;
 
 
 public class HungerToggleCommand implements CommandExecutor {
 
-    private final CooleServerMods plugin;
+    private final modFramework plugin;
 
-    public HungerToggleCommand(CooleServerMods plugin) {
+    public HungerToggleCommand(modFramework plugin) {
         this.plugin = plugin;
     }
 

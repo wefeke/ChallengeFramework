@@ -1,17 +1,17 @@
-package wefeke.cooleServerMods.Listener;
+package wefeke.modFramework.GlobalListeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
-import wefeke.cooleServerMods.CooleServerMods;
+import wefeke.modFramework.modFramework;
 
 
 public class FoodLevelChangeListener implements Listener {
 
-    private final CooleServerMods plugin;
+    private final modFramework plugin;
 
-    public FoodLevelChangeListener(CooleServerMods plugin) {
+    public FoodLevelChangeListener(modFramework plugin) {
         this.plugin = plugin;
     }
 
