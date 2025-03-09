@@ -1,17 +1,17 @@
-package wefeke.modFramework.GlobalListeners;
+package wefeke.challengeFramework.GlobalListeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
-import wefeke.modFramework.modFramework;
+import wefeke.challengeFramework.challengeFramework;
 
 
 public class FoodLevelChangeListener implements Listener {
 
-    private final modFramework plugin;
+    private final challengeFramework plugin;
 
-    public FoodLevelChangeListener(modFramework plugin) {
+    public FoodLevelChangeListener(challengeFramework plugin) {
         this.plugin = plugin;
     }
 

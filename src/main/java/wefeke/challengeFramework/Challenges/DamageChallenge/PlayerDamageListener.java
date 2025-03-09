@@ -1,4 +1,4 @@
-package wefeke.modFramework.Challenges.DamageChallenge;
+package wefeke.challengeFramework.Challenges.DamageChallenge;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

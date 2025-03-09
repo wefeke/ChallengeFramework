@@ -1,17 +1,17 @@
-package wefeke.modFramework.GlobalCommands;
+package wefeke.challengeFramework.GlobalCommands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import wefeke.modFramework.modFramework;
+import wefeke.challengeFramework.challengeFramework;
 
 
 public class HungerToggleCommand implements CommandExecutor {
 
-    private final modFramework plugin;
+    private final challengeFramework plugin;
 
-    public HungerToggleCommand(modFramework plugin) {
+    public HungerToggleCommand(challengeFramework plugin) {
         this.plugin = plugin;
     }
 

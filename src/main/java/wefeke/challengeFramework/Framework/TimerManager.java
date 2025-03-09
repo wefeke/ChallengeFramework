@@ -1,11 +1,11 @@
-package wefeke.modFramework.Framework;
+package wefeke.challengeFramework.Framework;
 
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-import wefeke.modFramework.modFramework;
+import wefeke.challengeFramework.challengeFramework;
 
 public class TimerManager {
 
@@ -16,12 +16,12 @@ public class TimerManager {
     private boolean isPaused = false;
     private String currentTimer;
 
-    private final modFramework plugin;
+    private final challengeFramework plugin;
     private ChallengeManager challengeManager;
 
     // Timer methods (integrated from TimerManager)
 
-    public TimerManager(modFramework plugin) {
+    public TimerManager(challengeFramework plugin) {
         this.plugin = plugin;
     }
 

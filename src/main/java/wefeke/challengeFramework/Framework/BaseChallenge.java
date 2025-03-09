@@ -1,4 +1,4 @@
-package wefeke.modFramework.Framework;
+package wefeke.challengeFramework.Framework;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

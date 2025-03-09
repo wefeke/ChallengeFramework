@@ -1,10 +1,10 @@
-package wefeke.modFramework.GlobalCommands;
+package wefeke.challengeFramework.GlobalCommands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import wefeke.modFramework.Framework.ChallengeManager;
+import wefeke.challengeFramework.Framework.ChallengeManager;
 
 public class StartChallengeCommand implements CommandExecutor {
     private final ChallengeManager challengeManager;

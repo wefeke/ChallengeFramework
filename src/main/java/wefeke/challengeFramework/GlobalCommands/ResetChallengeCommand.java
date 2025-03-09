@@ -1,19 +1,16 @@
-package wefeke.modFramework.GlobalCommands;
+package wefeke.challengeFramework.GlobalCommands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import wefeke.modFramework.Framework.Challenge;
-import wefeke.modFramework.Framework.ChallengeManager;
-import wefeke.modFramework.modFramework;
+import wefeke.challengeFramework.Framework.Challenge;
+import wefeke.challengeFramework.Framework.ChallengeManager;
 
-
-public class ResumeChallengeCommand implements CommandExecutor {
-
+public class ResetChallengeCommand implements CommandExecutor {
     private final ChallengeManager challengeManager;
 
-    public ResumeChallengeCommand(ChallengeManager challengeManager) {
+    public ResetChallengeCommand(ChallengeManager challengeManager) {
         this.challengeManager = challengeManager;
     }
 
@@ -25,7 +22,7 @@ public class ResumeChallengeCommand implements CommandExecutor {
         }
 
         Challenge activeChallenge = challengeManager.getActiveChallenge();
-        challengeManager.resumeChallenge(activeChallenge);
+        challengeManager.resetChallenge(activeChallenge);
         return true;
     }
 }

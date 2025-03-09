@@ -1,4 +1,4 @@
-package wefeke.modFramework.Framework;
+package wefeke.challengeFramework.Framework;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -10,7 +10,7 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import wefeke.modFramework.modFramework;
+import wefeke.challengeFramework.challengeFramework;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,11 +18,11 @@ import java.util.List;
 import java.util.Map;
 
 public class ChallengeInventoryListener implements Listener {
-    private final modFramework plugin;
+    private final challengeFramework plugin;
     // Cache for challenge settings to display current values
     private final Map<String, Map<String, Integer>> cachedSettings = new HashMap<>();
 
-    public ChallengeInventoryListener(modFramework plugin) {
+    public ChallengeInventoryListener(challengeFramework plugin) {
         this.plugin = plugin;
     }
 

@@ -1,26 +1,26 @@
-package wefeke.modFramework;
+package wefeke.challengeFramework;
 
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import wefeke.modFramework.Framework.ChallengeInventoryListener;
-import wefeke.modFramework.Framework.TimerManager;
-import wefeke.modFramework.GlobalCommands.*;
-import wefeke.modFramework.Framework.ChallengeManager;
-import wefeke.modFramework.Challenges.DamageChallenge.DamageChallenge;
-import wefeke.modFramework.GlobalListeners.*;
+import wefeke.challengeFramework.Framework.ChallengeInventoryListener;
+import wefeke.challengeFramework.Framework.TimerManager;
+import wefeke.challengeFramework.GlobalCommands.*;
+import wefeke.challengeFramework.Framework.ChallengeManager;
+import wefeke.challengeFramework.Challenges.DamageChallenge.DamageChallenge;
+import wefeke.challengeFramework.GlobalListeners.*;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
 
 
-public final class modFramework extends JavaPlugin {
+public final class challengeFramework extends JavaPlugin {
 
     private ArrayList<Player> playerNotHungry;
     private ChallengeManager challengeManager;
     private TimerManager timerManager;
 
-    public modFramework() {
+    public challengeFramework() {
         playerNotHungry = new ArrayList<>();
         timerManager = new TimerManager(this);
         challengeManager = new ChallengeManager(this, timerManager);

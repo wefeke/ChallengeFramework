@@ -1,6 +1,6 @@
-name: modFramework
+name: challengeFramework
 version: '1.0-SNAPSHOT'
-main: wefeke.modFramework.modFramework
+main: wefeke.challengeFramework.challengeFramework
 api-version: '1.21'
 commands:
   startchallenge:

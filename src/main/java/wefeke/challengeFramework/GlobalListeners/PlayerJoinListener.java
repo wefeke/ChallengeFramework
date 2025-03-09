@@ -1,4 +1,4 @@
-package wefeke.modFramework.GlobalListeners;
+package wefeke.challengeFramework.GlobalListeners;
 import org.bukkit.GameRule;
 import org.bukkit.World;
 import org.bukkit.entity.Player;

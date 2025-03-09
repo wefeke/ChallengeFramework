@@ -1,14 +1,12 @@
-package wefeke.modFramework.GlobalCommands;
+package wefeke.challengeFramework.GlobalCommands;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import wefeke.modFramework.Framework.Challenge;
-import wefeke.modFramework.Framework.ChallengeManager;
-import wefeke.modFramework.Framework.TimerManager;
-import wefeke.modFramework.modFramework;
+import wefeke.challengeFramework.Framework.Challenge;
+import wefeke.challengeFramework.Framework.ChallengeManager;
+import wefeke.challengeFramework.Framework.TimerManager;
 
 
 public class PauseChallengeCommand implements CommandExecutor {

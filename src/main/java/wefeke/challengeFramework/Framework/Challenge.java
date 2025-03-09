@@ -1,4 +1,4 @@
-package wefeke.modFramework.Framework;
+package wefeke.challengeFramework.Framework;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
